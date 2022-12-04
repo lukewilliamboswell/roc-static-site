@@ -20,3 +20,7 @@ cargo run -- static-site.roc -- input/ output/
 The example in the `input` directory is a copy of the 2004 website
 by John Gruber, introducing the Markdown format.
 https://daringfireball.net/projects/markdown/
+
+## Building a URL package for distribution
+
+`roc build --bundle .tar.br platform/main.roc`
